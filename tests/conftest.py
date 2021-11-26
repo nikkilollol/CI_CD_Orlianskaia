@@ -5,7 +5,7 @@ con = pyodbc.connect(
     "Server=EPRUPETW054C\SQLEXPRESS01;"
     "UID=Veronikatest;"
     "PWD=test123;"
-    "timeout=1;"
+    "timeout=0;"
 )
 
 def check_duplicates(sql):
