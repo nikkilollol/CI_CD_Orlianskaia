@@ -3,8 +3,8 @@ import pyodbc
 con = pyodbc.connect(
     "Driver={ODBC Driver 17 for SQL Server};"
     "Server=EPRUPETW054C\SQLEXPRESS01;"
-    "Database=TRN;"
-    "Trusted_Connection=yes;"
+    "UID=Veronikatest;"
+    "PWD=test123;"
 )
 
 def check_duplicates(sql):
